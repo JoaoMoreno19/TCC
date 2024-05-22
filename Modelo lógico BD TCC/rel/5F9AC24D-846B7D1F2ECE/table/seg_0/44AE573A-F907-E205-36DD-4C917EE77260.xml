@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44AE573A-F907-E205-36DD-4C917EE77260" name="item_descarte">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:04:42 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7F7C4D51-A869-20DF-15A0-FEBFBAEDBC7D">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:09:22 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="E6F2D585-2D5A-D547-76AE-A1ED899849AE">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:09:22 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="87FA6ABE-583E-BE96-A165-854BF4317A1D">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:09:22 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="riscos" id="F93568DE-BC84-5523-3219-0439086B15A4">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:09:22 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa_id" id="83C67779-6E47-11CA-3B69-FB636DAF13E3">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:27:12 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05D02C79-7249-1277-CCCE-A609CD1ABA46" referredColumn="B7FAE909-C249-982C-890C-C5394E4CFDDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="662F6A54-36C5-3A6C-04E0-441E4B5F6AB3" name="item_descarte_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:13:58 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F7C4D51-A869-20DF-15A0-FEBFBAEDBC7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEC0262F-4523-FFD6-C5FA-42F377266492" name="item_descarte_empresa_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:27:12 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83C67779-6E47-11CA-3B69-FB636DAF13E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

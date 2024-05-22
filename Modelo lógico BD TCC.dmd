@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo lógico BD TCC" id="EC8AE924-A875-7FF2-8ED1-82B6A395751F" version="3.5">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-08 22:47:48 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EC8AE924-A875-7FF2-8ED1-82B6A395751F</designId>
+</OSDM_Design>

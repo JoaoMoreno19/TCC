@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52A35075-489E-951F-528F-70D1732BEC75" name="cidade">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B8487B04-021E-ABDA-FCC9-07B873039AF4">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="B8921F94-10DE-6D6C-6282-224328B19B8E">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_id" id="361421BC-64B0-7692-0456-DA7E98163CED">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE70F6F6-E48B-217D-0E71-34EB31885C43" referredColumn="197AA1E4-0909-AEE5-4B0D-2A44316DBDD0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECC36EF3-5E1E-3E85-A646-C2950463C330" name="cidade_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8487B04-021E-ABDA-FCC9-07B873039AF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36750145-BA1A-ECB0-749B-EE61FD80B30C" name="cidade_estado_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="361421BC-64B0-7692-0456-DA7E98163CED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE2A75D8-C506-7640-9AF1-634AB500DD52" name="endereco">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="823FF7E6-8476-81E7-181E-5A0BD4C6A799">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rua" id="E405EB70-E8BB-473B-C430-9DD24E9F3F82">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="9B5E649B-A27C-1633-1BA1-C7CDB151921C">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="E66C9095-3C6C-E583-5572-E34186B9D63C">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro_id" id="1A3513BC-0864-BC8C-518A-0DF31F2DC49B">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9935842-B74B-60BD-0C2F-4C8DEF12FB5C" referredColumn="D55483BA-A168-6D31-324A-03481847C8E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="065F4B21-BFFC-B1A3-BDA0-BE8E6D4C0B26" name="endereco_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="823FF7E6-8476-81E7-181E-5A0BD4C6A799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB3A338A-BFD3-BF0B-10A4-5F8264BEB4CE" name="endereco_bairro_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:10 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A3513BC-0864-BC8C-518A-0DF31F2DC49B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

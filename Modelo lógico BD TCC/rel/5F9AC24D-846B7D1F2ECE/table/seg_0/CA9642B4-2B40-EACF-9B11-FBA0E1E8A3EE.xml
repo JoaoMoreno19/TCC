@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA9642B4-2B40-EACF-9B11-FBA0E1E8A3EE" name="consultor">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:18:47 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pessoa_id" id="E1CBBFE9-261F-6BCB-0A70-90FCD7EF557B">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:20:56 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35442413-5134-E030-E41D-01060B041BB7" referredColumn="EAEF8350-B04D-06AA-3726-195C9CD35671"/>
+</associations>
+</Column>
+<Column name="senha" id="5BF71935-E675-7A23-006B-83F98590B5DE">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:20:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa_id" id="C58AAD30-3FEF-B789-4E22-574DC779142D">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:27:23 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8B7D5A4-DFB7-D490-C34D-0C0D2C99EE75" referredColumn="B7FAE909-C249-982C-890C-C5394E4CFDDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68F03D75-B01A-71C9-1685-5A19542F3F37" name="consultor_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:21:08 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1CBBFE9-261F-6BCB-0A70-90FCD7EF557B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9451553B-55E9-5713-2951-EE26EEB1A625" name="consultor_pessoa_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:20:56 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1CBBFE9-261F-6BCB-0A70-90FCD7EF557B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E2A706B-0800-EAA7-C9C9-F5F3E7A3CF6C" name="consultor_empresa_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:27:23 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C58AAD30-3FEF-B789-4E22-574DC779142D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0009AF54-E14E-4ABD-7A66-B9ECF4FBD2C8" name="resposta">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:25:13 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FA21DA8E-A07E-B74F-5FEF-BCB139D5EB85">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:25:48 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="B4C5AF8D-9CDF-A609-FB5C-DFDFD443F591">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:25:48 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contato_consultoria_id" id="ED62F790-9682-17FD-BC76-2501BCA3E6B7">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:34:17 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BD3526C-3874-F6C1-CA90-6A9DCB6BA23C" referredColumn="0A367C22-F4B0-2BD7-C854-695868FD7304"/>
+</associations>
+</Column>
+<Column name="consultor_pessoa_id" id="4D90B2D7-7333-B3D0-EAF7-63A1C54E9C94">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:35:46 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="850DCDB5-A64A-2997-D279-80C6101A9F99" referredColumn="E1CBBFE9-261F-6BCB-0A70-90FCD7EF557B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92877D56-418E-5BA6-A7A6-1F72D2E8B4D6" name="resposta_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:25:54 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA21DA8E-A07E-B74F-5FEF-BCB139D5EB85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBB0C625-923E-CB36-AF83-464E1ACE0081" name="resposta_contato_consultoria_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:34:17 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED62F790-9682-17FD-BC76-2501BCA3E6B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F525C05B-E633-E4B2-90A7-313A45B2DB7F" name="resposta_consultor_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:35:46 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D90B2D7-7333-B3D0-EAF7-63A1C54E9C94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

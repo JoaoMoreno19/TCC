@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9935842-B74B-60BD-0C2F-4C8DEF12FB5C" containerWithKeyObject="FE2A75D8-C506-7640-9AF1-634AB500DD52" localFKIndex="AB3A338A-BFD3-BF0B-10A4-5F8264BEB4CE" name="endereco_bairro_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:15:10 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<referredTableLongName>bairro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88D5C475-18ED-7D84-D7E6-5F9294FBF8F6</referredTableID>
+<keyObject>BB0D91A7-E706-28EF-A803-70C710DB4CCC</keyObject>
+<referredKeyID>BB0D91A7-E706-28EF-A803-70C710DB4CCC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

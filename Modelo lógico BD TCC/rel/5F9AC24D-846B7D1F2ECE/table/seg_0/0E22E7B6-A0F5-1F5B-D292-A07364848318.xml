@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E22E7B6-A0F5-1F5B-D292-A07364848318" name="local_descarte">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:09:24 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9A5A08E4-3E91-E661-4CE0-9E75294AC711">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:12:53 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="3DE80C62-B112-42BD-FFD9-2EB048CCC0F9">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:12:53 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horario_funcionamento" id="17CCA695-BB41-37D2-C2D0-BB7D274CA9EB">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:12:53 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco_id" id="EDABFC7A-9A47-7350-61CE-F08E0345AA0A">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:31:37 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48114422-1120-EF43-2FB2-5AF9430DA9DE" referredColumn="823FF7E6-8476-81E7-181E-5A0BD4C6A799"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1336DBE-16C7-60EA-4AF8-2862027B1FE2" name="local_descarte_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:12:53 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A5A08E4-3E91-E661-4CE0-9E75294AC711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B2A8AA0-8257-6D13-1732-0773E4EFEB28" name="local_descarte_endereco_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:31:37 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDABFC7A-9A47-7350-61CE-F08E0345AA0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

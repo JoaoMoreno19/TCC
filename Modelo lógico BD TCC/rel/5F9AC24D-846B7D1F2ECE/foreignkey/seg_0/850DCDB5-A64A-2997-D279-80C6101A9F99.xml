@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="850DCDB5-A64A-2997-D279-80C6101A9F99" containerWithKeyObject="0009AF54-E14E-4ABD-7A66-B9ECF4FBD2C8" localFKIndex="F525C05B-E633-E4B2-90A7-313A45B2DB7F" name="resposta_consultor_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-05-09 00:35:46 UTC</createdTime>
+<ownerDesignName>Modelo lógico BD TCC</ownerDesignName>
+<referredTableLongName>consultor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA9642B4-2B40-EACF-9B11-FBA0E1E8A3EE</referredTableID>
+<keyObject>68F03D75-B01A-71C9-1685-5A19542F3F37</keyObject>
+<referredKeyID>68F03D75-B01A-71C9-1685-5A19542F3F37</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pessoa_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
